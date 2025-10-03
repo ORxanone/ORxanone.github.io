@@ -22,7 +22,7 @@ const Titlebar = () => {
         <p onClick={comingSoon}>Terminal</p>
         <p onClick={comingSoon}>Help</p>
       </div>
-      <p className={styles.title}>ORxan Racabov - Portfolio</p>
+      <p className={styles.title}>ORkhan Racabov - Portfolio</p>
       <div className={styles.windowButtons}>
         <span onClick={comingSoon} className={styles.minimize}></span>
         <span onClick={comingSoon} className={styles.maximize}></span>

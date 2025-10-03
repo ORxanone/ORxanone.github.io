@@ -8,25 +8,20 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Orxan Racabov</h1>
+            <h1 className={styles.name}>Orkhan Racabov</h1>
             <h6 className={styles.bio}>Software Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
                   <h4>Main Skills</h4>
                   <div className={styles.tags}>
-                    <span key="Research" className="Research">
-                      HTML5/CSS3
-                    </span>
                     <span key="Computer-Vision" className="Computer-Vision">
                       JavaScript
                     </span>
                     <span key="PyTorch" className="PyTorch">
                       TypeScript
                     </span>
-                    <span key="MIM" className="MIM">
-                      ReactJS/NextJS
-                    </span>
+
                     <span key="LLMs" className="LLMs">
                       NodeJS
                     </span>
@@ -36,12 +31,14 @@ export default function HomePage() {
                     <span key="GenAI" className="GenAI">
                       ExpressJS
                     </span>
-                    
                     <span key="Tensorflow" className="Tensorflow">
                       NoSQL - MongoDB
                     </span>
                     <span key="Apache-Spark" className="Apache-Spark">
                       Docker
+                    </span>
+                    <span key="MIM" className="MIM">
+                      ReactJS/NextJS
                     </span>
                     <span key="SQL" className="SQL">
                       SQL - PostgreSQL/MySQL/MSSQL
@@ -53,7 +50,7 @@ export default function HomePage() {
                       GRAPHQL
                     </span>
                     <span key="Bots" className="Bots">
-                      SOCKET
+                      SOCKET.IO
                     </span>
                     <span key="Bots" className="Bots">
                       Git/Github/Gitlub

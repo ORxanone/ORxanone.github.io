@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <CustomHead title={`ORxan Racabov | ${pageProps.title}`} />
+      <CustomHead title={`ORkhan Racabov | ${pageProps.title}`} />
       <Component {...pageProps} />
       <ToastContainer />
       <Analytics />

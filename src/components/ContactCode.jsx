@@ -8,7 +8,7 @@ const contactItems = [
   },
   {
     social: "LinkedIn",
-    link: "ORxan Racabov",
+    link: "ORkhan Racabov",
     href: "https://www.linkedin.com/in/orxan-racabov/",
   },
   {
