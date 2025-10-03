@@ -99,8 +99,6 @@ export async function getStaticProps() {
       },
     }
   );
-
-  console.log("repoRes: ", repoRes)
   let repos = await repoRes.json();
   const groupedRepos = repos.reduce((acc, repo) => {
     const { language, name, description, pushed_at } = repo;
